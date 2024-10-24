@@ -1,0 +1,164 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+
+header,nav,main,footer{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+header{
+    background-color: #1C5560;
+    color: #fbffcd;
+    text-align: center;
+}
+nav{
+    height: 30px;
+    background-color: #79ae92;
+    color: #EEEEEE;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+main {
+    height: auto;
+    background-color: #001f36;
+}
+section{
+    width: 950px;
+    height: auto;
+    background-color: #fbffcd;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+p{
+    padding: 10px;
+}
+img{ 
+    display:block;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+footer{
+    height: 50px;
+    background-color: #000000;
+    font-size: 25px;
+    color: #fbffcd;
+    text-align: center;
+}
+
+
+
+ul li{
+    width: 90px;
+    background-color: #fbffcd;
+    color: #001f36;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #201E43;
+}
+
+
+
+
+ul a:link, ul a:visited{
+    color: #201E43;
+}
+ul a:hover{
+     color: #508C9B;
+     font-weight: bold;
+}
+nav li:hover, nav li a:hover{
+     background-color: #000000;
+    color: #fbffcd;
+}
+
+
+
+#img_float{
+    width: 350px;
+    height: auto;
+    float: right;
+    padding-left: 20px;
+}
+#img_floatdos{
+    width: 250px;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+}
+#icono_cohete {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+
+#img_filtros{
+    text-align: center;
+}
+#img_filtros img{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    display: inline-block;
+}
+
+#filtro1{
+    filter: brightness(200%);
+}
+#filtro2 {
+    filter:contrast(50%);
+}
+#filtro3 {
+    filter:grayscale(100%);
+}
+#filtro4 {
+    filter:sepia(100%);
+}
+#filtro5 {
+    filter:saturate(150%);
+}
+#filtro6 {
+    filter: opacity(40%);
+}
+#filtro7 {
+    filter: invert(100%);
+}
+#filtro8 {
+    filter: blur(50%);
+}
+#filtro9 {
+    filter: drop-shadow(10px 10px 10px gray);
+}
+
+
+#filtro10 {
+    filter:contrast(150%) drop-shadow(10px 10px 5px gray)
+}
+#filtro11 {
+    filter: saturate(200%) drop-shadow(10px 10px 5px gray)
+}
+#filtro12 {
+    filter: grayscale(100%) invert(100%)
+}
